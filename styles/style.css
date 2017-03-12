@@ -1,0 +1,168 @@
+.header {
+	position: absolute;
+	right: 30px;
+	top: 0;
+}
+
+.header li {
+	list-style: none;
+    display: inline-block;
+    float: right;
+}
+.header_button {
+	line-height: 24px;
+    vertical-align: middle;
+    padding-top: 2px;
+    margin-left: 5px;
+}
+
+.log-in {
+	line-height: 20px;
+    vertical-align: middle;
+    background-color: #4285f4;
+    padding: 3px 12px 4px 12px;
+    margin: 0 0 0 5px;
+    border: 1px solid #4285f4;
+    border-radius: 2px;
+}
+
+.log-in a {
+	color: white;
+	text-decoration: none;
+	font-family: arial,sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	
+}
+
+.header_button a {
+	text-decoration: none;
+	color: black;
+	font-family: arial,sans-serif;
+	font-size: 13px;
+	padding: 5px;
+}
+
+.header_button a:hover {
+	text-decoration: underline;
+}
+
+#apps {
+	height: 30px;
+    width: 30px;
+    background-image: url(https://ssl.gstatic.com/gb/images/i1_1967ca6a.png);
+    background-position: -132px -38px;
+    margin: 0 10px;
+}
+
+.main {
+	margin: 198px auto 0;
+}
+
+.logo {
+	display: block;
+	background: url(https://www.google.by/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png) no-repeat;
+	height: 92px;
+    width: 272px;
+	margin: 5% auto 0;
+}
+
+.blr {
+	display: block;
+	width: 70px;
+	position: relative;
+	left: 114px;
+	bottom: 16px;
+	color: #4285f4;
+    font: 16px/16px roboto-regular, arial, sans-serif;
+}
+
+.form {
+	display: block;
+	margin: 12px auto 0;
+}
+
+.search {
+	width: 570px;
+	height: 44px;
+	border: 1px solid #f2f2f2;
+    border-radius: 2px;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+    transition: box-shadow 200ms cubic-bezier(0.4, 0.0, 0.2, 1);
+}
+
+.search:hover {
+	box-shadow: 0 3px 8px 0 rgba(0,0,0,0.2), 0 0 0 1px rgba(0,0,0,0.08);
+    transition: box-shadow 200ms cubic-bezier(0.4, 0.0, 0.2, 1);
+}
+
+.button {
+	padding: 0 16px;
+	margin: 32px 2px 15px 2px;
+	height: 36px;
+	background-color: #f2f2f2;
+	color: #757575;
+	font-weight: bold;
+	border: 1px solid #f2f2f2;
+    border-radius: 2px;
+}
+
+.button:hover {
+	background-color: #f8f8f8;
+	color: black;
+	font-weight: bold;
+	border: 1px solid #c6c6c6;
+}
+
+.language {
+	font-family: arial,sans-serif;
+	font-size: 13px;
+}
+
+.language a {
+	text-decoration: none;
+}
+
+.language a:hover {
+	text-decoration: underline;
+}
+
+.footer {
+	position: absolute;
+	line-height: 40px;
+	width: 100%;
+	bottom: 0;
+	margin-left: -10px;
+	background: #f2f2f2;
+	border-top: 1px solid #e4e4e4;
+    line-height: 10px;
+    padding: 15px 0;
+}
+
+.footer .left {
+	float: left;
+	margin-left: 32px;
+}
+
+.footer .right {
+	float: right;
+	margin-right: 32px;
+}
+
+.footer a {
+	text-decoration: none;
+	color: #666;
+	font-family: arial,sans-serif;
+	font-size: 13px;
+	padding-left: 27px;
+	
+}
+
+.footer a:first-child {
+	padding-left: 0px;
+	
+}
+
+.footer a:hover {
+	text-decoration: underline;
+}
